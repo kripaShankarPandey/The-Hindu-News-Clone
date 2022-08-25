@@ -1,5 +1,5 @@
 
-    var a = document.querySelector(".date")
+    var a = document.querySelector("#date")
     
     var Days = ['Sunday', 'Monday', 'Tuesday',
             'Wednesday', 'Thursday', 'Friday', 'Saturday'];

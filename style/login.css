@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245,245,245);
+}
+#loginPage-logo{
+   display: flex;
+   justify-content: center;
+   margin: 20px;
+    
+}
+/* #loginPage-logo img{
+width: 80%;
+    
+} */
+#form{
+    width: 30%;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}

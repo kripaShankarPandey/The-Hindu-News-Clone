@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+  background-color: rgb(245,245,245);
+}
+#middle-body{
+    display: flex;
+    width: 88%;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+#a11{
+    width: 160px;
+    height: 600px;
+    /* border: 2px solid red; */
+    margin-right: 13px;
+    position: sticky;
+    top:0px;
+    align-self: flex-start;
+}
+#a22{
+    width: 75%;
+    height: auto;
+    /* border: 4px solid red; */
+}
+    
+#a33{
+    width: 160px;
+    height: 600px;
+    margin-left: 13px;
+    /* border: 2px solid red; */
+    position: sticky;
+    top:0px;
+    align-self: flex-start;
+
+}
+.mid-part{
+    width: 100%;
+    height: auto;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+/* ************************* */
+.part1{
+    width: 69%;
+     height: auto;
+    border:0px solid blue; 
+   
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.part2{
+    width: 29%;
+    height: auto;
+    border: 0px solid green; 
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#news-cat{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 0px solid red;
+} 
+#news-cat div{
+    background-color:rgb(19,59,90);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+#today-papers{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+}
+#papers{
+    width: 100%;
+    height: auto;
+    border: 0px solid blue;
+}
+#papers div {
+    width: 100%;
+    height: 35px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  
+}
+#papers a{
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+#papers a:hover{
+    text-decoration: underline;
+    
+}
+#papers>:nth-child(odd){
+    background-color:rgb(224,231,238);
+}
+.part2 img{
+    width: 100%;
+}

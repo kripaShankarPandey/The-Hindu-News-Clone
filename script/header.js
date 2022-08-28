@@ -1,5 +1,5 @@
 
-    var a = document.getElementById("date1");
+    
     
     var Days = ['Sunday', 'Monday', 'Tuesday',
             'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -13,4 +13,5 @@
     var month = Months[currentDay.getMonth()];
     var year=currentDay.getFullYear();
     var date=currentDay.getDate();
-    a.innerText =day+" "+date+" "+month+" "+year;
+    
+    document.getElementById("date1").innerText =day+" "+date+" "+month+" "+year;
